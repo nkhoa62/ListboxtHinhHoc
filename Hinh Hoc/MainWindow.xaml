@@ -1,0 +1,13 @@
+﻿<Window x:Class="Hinh_Hoc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="300" Width="600"
+        Background="AliceBlue">
+    <Grid Margin="0,0,0,-2">
+        <Button x:Name="HinhHoc" Content="Hinh Hoc" HorizontalAlignment="Left" Margin="425,34,0,0" VerticalAlignment="Top" Width="108" Click="HN_Click" FontSize="16" FontWeight="Bold" Height="46" />
+        <Button x:Name="HinhTron" Content="Hinh Tron" HorizontalAlignment="Left" Margin="425,99,0,0" VerticalAlignment="Top" Width="108" Click="HT_Click" FontWeight="Bold" FontSize="16" Height="46" RenderTransformOrigin="0.343,0.587" />
+        <ListBox x:Name="txbText" Height="205" Margin="39,34,172,0" VerticalAlignment="Top" FontSize="14" SelectionChanged="txbtext_SelectionChanged"/>
+        <TextBox x:Name="txbSo" HorizontalAlignment="Left" Height="46" Margin="441,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" FontWeight="Bold" FontSize="16"/>
+
+    </Grid>
+</Window>
